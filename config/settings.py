@@ -4,6 +4,9 @@ from pathlib import Path
 
 import environ
 
+import pymysql  # 纯 Python MySQL 驱动（无需编译），兼容 Django 的 mysql 后端
+pymysql.install_as_MySQLdb()
+
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 # 读取 .env（若存在）
