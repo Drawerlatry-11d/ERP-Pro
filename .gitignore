@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# 虚拟环境
+venv/
+.venv/
+env/
+ENV/
+
+# Django
+db.sqlite3
+db.sqlite3-journal
+/staticfiles/
+/media/
+*.log
+
+# 环境变量 / 密钥（禁止提交）
+.env
+.env.*
+!.env.example
+
+# IDE / 编辑器
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# 测试 / 覆盖率
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+
+# 本地临时目录（迁移/运行时的临时文件）
+.tmprun/
+
+# 沙箱/运行产生的临时散落文件（勿提交）
+1fto6ddl
+_or48l9f
+nrxr224s
+qvq6su90
+tku_5xjz

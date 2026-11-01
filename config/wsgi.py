@@ -1,0 +1,7 @@
+"""WSGI 配置（生产 Gunicorn 入口）。"""
+import os
+
+from django.core.wsgi import get_wsgi_application
+
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "config.settings")
+application = get_wsgi_application()

@@ -1,0 +1,14 @@
+# ERP-Pro 后端依赖
+# 技术栈：Django 4.2(LTS) + Django REST Framework + MySQL 8.0
+# 说明：MySQL 驱动选用 PyMySQL（纯 Python，免编译，适合无 Homebrew 环境）
+
+Django==4.2.16
+djangorestframework==3.15.2
+django-cors-headers==4.4.0
+django-environ==0.11.2
+PyMySQL==1.1.1
+celery==5.4.0
+redis==5.1.1
+drf-spectacular==0.27.2
+django-filter==24.3
+Pillow==10.4.0
